@@ -1,3 +1,45 @@
 body{
-    background-color: lightblue;
+    background-color: rgb(224, 11, 243);
 }
+nav{
+    width: 100vw;
+    background-color: coral;
+  }
+  ul{
+    margin-top: 40px;
+    padding-left: 250px;
+    display: flex;
+
+  } body{
+    margin: 0;
+  }
+  li{
+    list-style-type: none;  
+    
+
+    margin: 0 2vw;
+    font-size: 3vh;
+  }
+  a{
+    text-decoration: none;
+    
+    
+    color: black;
+    
+    padding: 2vw;
+    
+    font-family: monospace;
+  }
+  a:hover{
+    background-color: #C6E9FF;
+  }
+  .intro{
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-image: url('../images/pizza-house.jpg');
+      background-size: cover;
+      margin-top: 50px;
+  }
+  .menu{
+      text-align: center;
+  }
